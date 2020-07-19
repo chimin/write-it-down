@@ -1,0 +1,20 @@
+.profile-panel {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: .5em;
+}
+
+.profile-panel>.username {
+    font-weight: bold;
+}
+
+.profile-panel>button {
+    margin-left: .5em;
+}
+
+@media (max-width: 768px) {
+    .profile-panel>.greeting {
+        display: none;
+    }
+}

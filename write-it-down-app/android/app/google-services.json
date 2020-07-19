@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "201805209772",
+    "firebase_url": "https://c4compile-276001.firebaseio.com",
+    "project_id": "c4compile-276001",
+    "storage_bucket": "c4compile-276001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201805209772:android:a7801a1370cb6ab283ff09",
+        "android_client_info": {
+          "package_name": "com.writeitdown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201805209772-k1ab4s2abj4o32budjupojsfa565fpk0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.writeitdown",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "201805209772-68fq8g7dh6p7ib0v3qqk7sa8m1mu3ui9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb8CiWFWfvTppXCDwutWVKgQtzAMtk8hk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201805209772-68fq8g7dh6p7ib0v3qqk7sa8m1mu3ui9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

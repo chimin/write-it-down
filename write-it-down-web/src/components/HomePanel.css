@@ -1,0 +1,95 @@
+.topbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #ddd;
+    height: 2.5em;
+}
+
+.topbar>.container {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(0, -50%);
+}
+
+.topbar .title {
+    display: inline-block;
+    padding: .5em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.topbar .menu-button {
+    display: none;
+    margin-left: .5em;
+}
+
+.topbar .button-panel {
+    display: inline-block;
+    padding: .5em;
+}
+
+.topbar .button-panel>* {
+    margin-right: .5em;
+}
+
+.sidebar {
+    width: 200px;
+    max-width: 100%;
+    position: fixed;
+    left: 0;
+    top: 2.5em;
+    bottom: 0;
+    background: #eee;
+    overflow: auto;
+}
+
+.sidebar .button {
+    padding: .5em;
+}
+
+.sidebar .button>button {
+    display: block;
+    width: 100%;
+}
+
+.sidebar-mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(128, 128, 128, .5);
+    display: none;
+}
+
+.content-panel {
+    position: fixed;
+    left: 200px;
+    top: 2.5em;
+    right: 0;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .topbar .title {
+        display: none;
+    }
+    .topbar .menu-button {
+        display: inline-block;
+    }
+    .sidebar {
+        display: none;
+    }
+    .sidebar.visible {
+        display: block;
+    }
+    .sidebar-mask.visible {
+        display: block;
+    }
+    .content-panel {
+        left: 0;
+    }
+}

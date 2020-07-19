@@ -1,0 +1,15 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "simple-import-sort",
+    "unused-imports"
+  ],
+  "rules": {
+    "simple-import-sort/sort": "error",
+    "unused-imports/no-unused-imports": "error"
+  }
+}

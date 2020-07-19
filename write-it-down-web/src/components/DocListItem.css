@@ -1,0 +1,14 @@
+.doc-list-item>a {
+    display: block;
+    padding: .5em;
+    color: #000;
+    text-decoration: none;
+}
+
+.doc-list-item>a:hover {
+    background: #eef;
+}
+
+.doc-list-item>a.active {
+    background: #ddf;
+}
